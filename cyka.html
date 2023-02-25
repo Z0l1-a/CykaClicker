@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyka Clicker</title>
+    <link rel="stylesheet" href="cyka.css">
+    
+</head>
+<body class="hatter">
+    <label id="cykalabel" for="cyka">0 </label>
+    <input onclick="click1();" type="button" value="Cyka" id="cyka"> 
+
+    <label id="gyaszlabel" for="gyasz">0 </label>
+    <input type="button" onclick="click2();" value="Vodka" id="gyasz"> 
+
+    <label id="pimplabel" for="pimp">0 </label>
+    <input onclick="click3();" type="button" id="pimp" value="Pimps"> 
+    
+    <h1 style="font-size:100px; color:yellow" align="center">Руский rizz level: </h1> <h1 style="font-size:100px; color:yellow" align="center" id="rizz">1</h1>
+    <audio src="Nash Gimn.mp3" id ="hardbass1"></audio>
+    <audio src="Cheeki Breeki Hardbass Anthem.mp3" id ="hardbass2"></audio>
+    <audio src="Tri Poloski.mp3" id="hardbass3"></audio>
+    <script src="gec.js"></script>
+    <script>
+        setInterval(function () {
+        cyka += (pimp*0.5)
+        document.getElementById("cykalabel").innerHTML = cyka
+        
+        }, 1000)
+        setInterval(function () {
+            setTimeout(function (){
+            var audio = document.getElementById("hardbass1")
+            audio.play()
+        
+        }, 1000)
+        setTimeout(function (){
+            var audio = document.getElementById("hardbass2")
+            audio.play()
+        }, 217000)
+        setTimeout(function (){
+            var audio = document.getElementById("hardbass3")
+            audio.play()
+        }, 194000)
+        }, 535000)
+        setInterval(function (){
+            if (rizz == 10){
+                document.getElementById("hardbass1").src = 0 
+                document.getElementById("hardbass2").src = 0
+                document.getElementById("hardbass3").src = 0
+            }
+        }, 1000)
+    </script>    
+
+</body>
+</html>

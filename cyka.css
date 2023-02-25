@@ -1,0 +1,47 @@
+#cyka {
+    
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    color: rgb(0, 0, 0);
+}
+
+#cyka:hover {
+    background-color: rgb(0, 0, 0);
+    color: green;
+}
+
+#gyasz {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    color: rgb(0, 0, 0);
+}
+
+#gyasz:hover {
+    background-color: rgb(0, 0, 0);
+    color: blue;
+}
+
+#pimp {
+    
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    color: rgb(0, 0, 0);
+}
+
+#pimp:hover {
+    background-color: rgb(0, 0, 0);
+    color: orange;
+}
+
+.hatter {
+    background-image: url("https://th.bing.com/th/id/OIP.mbW_fpEpiEsGnXGRaPFRZgHaDt?pid=ImgDet&rs=1");
+    background-size: 20%;
+}
+
+label {
+    color: cyan;
+    font-size: 20px;
+}
